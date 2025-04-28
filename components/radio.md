@@ -11,7 +11,7 @@ The VH-109 is a radio, which is what allows the driver station(the computer) to 
  - If using coprocessors, or limelights then they should either be wired directly into the radio's other 2 Ethernet ports that are marked as "AUX1" and "AUX2", or if more ports are needed, into a ethernet switch that is connected to either of the aux ports
  - The radio should be exposed and easy to reach, as it will need to be taken out frequently enough, also, signal will degrade if it is not properly placed
  - The port marked as "DS" should be left open usually, as it is helpful for the programmers
- - The DIP switches on the back of the radio should be checked and flipped correctly before any of the Ethernet cables are connected OTHERWISE IT CAN AND WILL BREAK THINGS
+ - The DIP switches on the back of the radio should be checked and flipped correctly before any of the Ethernet cables are connected ___OTHERWISE IT CAN AND WILL BREAK THINGS___
 
 
 
