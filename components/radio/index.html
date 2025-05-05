@@ -9,29 +9,34 @@
     <meta name="generator" content="Retype 3.8.0">
 
     <!-- Primary Meta Tags -->
-    <title>ALARM Robotics Electrical Documentation</title>
-    <meta name="title" content="ALARM Robotics Electrical Documentation">
+    <title>VH-109 Radio</title>
+    <meta name="title" content="VH-109 Radio">
+    <meta name="description" content="VH-109 radio">
 
     <!-- Canonical -->
-    <link rel="canonical" href="/">
+    <link rel="canonical" href="/components/radio/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/">
-    <meta property="og:title" content="ALARM Robotics Electrical Documentation">
+    <meta property="og:url" content="/components/radio/">
+    <meta property="og:title" content="VH-109 Radio">
+    <meta property="og:description" content="VH-109 radio">
+    <meta property="og:image" content="https://store.ctr-electronics.com/cdn/shop/files/VH-109_WCP-1538_2048x2048_bfd9c84d-37a8-4bcf-9c32-a97cbfc1605c.webp?v=1729551120">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="/">
-    <meta property="twitter:title" content="ALARM Robotics Electrical Documentation">
+    <meta property="twitter:url" content="/components/radio/">
+    <meta property="twitter:title" content="VH-109 Radio">
+    <meta property="twitter:description" content="VH-109 radio">
+    <meta property="twitter:image" content="https://store.ctr-electronics.com/cdn/shop/files/VH-109_WCP-1538_2048x2048_bfd9c84d-37a8-4bcf-9c32-a97cbfc1605c.webp?v=1729551120">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="resources/css/retype.css?v=3.8.0.799788416128" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.8.0.799788416128" rel="stylesheet">
 
-    <script data-cfasync="false" src="resources/js/config.js?v=3.8.0.799788416128" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="resources/js/retype.js?v=3.8.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=3.8.0.799788416128" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.8.0.799788416128" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.8.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.8.0.799788416128" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -46,7 +51,7 @@
                 <!-- Logo -->
                 <div class="flex items-center justify-between h-full py-2 md:w-75">
                     <div class="flex items-center px-2 md:px-6">
-                        <a id="docs-site-logo" href="" class="flex items-center leading-snug text-2xl">
+                        <a id="docs-site-logo" href="../../" class="flex items-center leading-snug text-2xl">
                             <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">2079</span>
                         </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">Docs</span>
                     </div>
@@ -145,12 +150,51 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="alarm-robotics-electrical-documentation" class="break-words">
+<doc-anchor-target id="vh-109-radio" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#alarm-robotics-electrical-documentation">#</doc-anchor-trigger>
-        <span>ALARM Robotics Electrical Documentation</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#vh-109-radio">#</doc-anchor-trigger>
+        <span>VH-109 Radio</span>
     </h1>
 </doc-anchor-target>
+<p><figure class="content-center">
+    <img src="https://store.ctr-electronics.com/cdn/shop/files/VH-109_WCP-1538_2048x2048_bfd9c84d-37a8-4bcf-9c32-a97cbfc1605c.webp?v=1729551120" alt="VH-109 radio">
+    <figcaption class="caption">VH-109 radio</figcaption>
+</figure>
+</p>
+<p><a href="https://frc-radio.vivid-hosting.net/">VH-109 official documentation</a></p>
+<p>The VH-109 is a radio, which is what allows the driver station(the computer) to connect to the robot without a huge wire running to each robot on the field. However, this also means that its wiring and setup is very important to get right.</p>
+<ul>
+<li>Should be powered from the <a href="https://www.revrobotics.com/rev-11-1856/">RPM(Radio Power Module)</a> for more simple, robust wiring</li>
+<li>The radio power module&#x27;s POE(power over ethernet) cable should run into the Ethernet port on the radio marked as &quot;RIO&quot;</li>
+<li>If using coprocessors, or limelights then they should either be wired directly into the radio&#x27;s other 2 Ethernet ports that are marked as &quot;AUX1&quot; and &quot;AUX2&quot;, or if more ports are needed, into a ethernet switch that is connected to either of the aux ports</li>
+<li>The radio should be exposed and easy to reach, as it will need to be taken out frequently enough, also, signal will degrade if it is not properly placed</li>
+<li>The port marked as &quot;DS&quot; should be left open usually, as it is helpful for the programmers</li>
+<li>The DIP switches on the back of the radio should be checked and flipped correctly before any of the Ethernet cables are connected <em><strong>OTHERWISE IT CAN AND WILL BREAK THINGS</strong></em></li>
+</ul>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>DIP Switch</th>
+<th>Functions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Switch 1</td>
+<td>Controls POE of &quot;AUX1&quot;</td>
+</tr>
+<tr>
+<td>Switch 2</td>
+<td>Controls POE of &quot;AUX2&quot;</td>
+</tr>
+<tr>
+<td>Switch 3</td>
+<td>Activates the 2.4 GHz wifi access point (Should only be used outside of competition)</td>
+</tr>
+</tbody>
+</table>
+</div>
 
                                 
                                 <!-- Required only on API pages -->
@@ -160,16 +204,16 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../components/roborio/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                                                <span class="block mt-1">Roborio</span>
+                                            </span>
+                                        </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l rounded-r-lg transition-colors duration-150 relative hover:z-5" href="components/motor(controllers)/falcon/">
-                                            <span>
-                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Falcon</span>
-                                            </span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
-                                        </a>
                                     </div>
                                 </nav>
                             </footer>
@@ -210,6 +254,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "ALARM Robotics Electrical Documentation", isRoot: true, level: 0, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "VH-109 Radio", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
