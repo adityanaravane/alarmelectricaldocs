@@ -1,4 +1,4 @@
-# Voltage Regulator Module (VRM) - Electrical Documentation
+# Voltage Regulator Module
 
 ![VRM](https://cdn.andymark.com/product_images/voltage-regulator-module/5bd3428561a10d292c9646c5/zoom.jpg?c=1540571781)
 

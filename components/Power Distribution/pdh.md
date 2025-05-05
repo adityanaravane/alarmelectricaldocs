@@ -1,4 +1,4 @@
-# Power Distribution Hub (PDH) - Electrical Documentation
+# Power Distribution Hub
 
 ![PDH](https://cdn11.bigcommerce.com/s-t3eo8vwp22/images/stencil/1500x1500/products/602/3247/REV-11-1850-Power-Distribution-Hub-Top-FINAL__02549.1704386743.png?c=2&imbypass=on)
 
