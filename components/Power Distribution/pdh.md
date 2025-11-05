@@ -43,7 +43,7 @@ The connection from the battery should be wired with > than 6 AWG wire. 6 AWG is
 
 ### RIO Wiring
 
- - The RoboRIO should be connected directly to one of the small ports with a 5 amp breaker. **THIS IS THE ONLY LEGAL WAY TO WIRE A RIO** because it need regulated power.
+ - The RoboRIO should be connected directly to one of the small ports with a 5 amp breaker. 
 
 ## CAN Bus Integration
 

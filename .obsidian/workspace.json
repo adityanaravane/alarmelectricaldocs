@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "2a3f6dfdfb9ee5a9",
+    "type": "split",
+    "children": [
+      {
+        "id": "538217e4f9bbe7da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03fa6494238c920a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "components/Power Distribution/pdh.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "pdh"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "96dc413a024815a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6f90847d72e8e5a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9352891baac7a6fd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0295e1df5b990f32",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5326bea7327d89b3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1dd4f10cb97ab3d1",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d59ebb7909593a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19512a28b7e54f59",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "components/Vision/orangepi.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for orangepi"
+            }
+          },
+          {
+            "id": "06dd32d11a14f1ed",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "components/Vision/orangepi.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from orangepi"
+            }
+          },
+          {
+            "id": "9a65e7a01543b28b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d78f2cb4690d6b5b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "components/Vision/orangepi.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of orangepi"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "03fa6494238c920a",
+  "lastOpenFiles": [
+    "components/Power Distribution/pdpv2.md",
+    "ZeroToHero",
+    "components/Power Distribution/pdh.md",
+    "components/Motor(controllers)/neovortex.md",
+    "components/Motor(controllers)/neo.md",
+    "components/Motor(controllers)/KrakenX60.md",
+    "components/Vision/limelight4.md",
+    "readme.md"
+  ]
+}
